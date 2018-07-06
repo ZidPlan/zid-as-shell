@@ -1,18 +1,21 @@
 #!/bin/sh
+
 ##
-# Generate a zid-128, which is a secure random lowercase hex string.
+# zid-128-as-shell
+#
+# Generate a Zen identifier (http://www.zidplan.com)
+# using 128 bits and implementation as a shell script.
 #
 # Usage:
 #
-#     zid-128
+#     zid-128-as-shell
 #
 # Example:
 #
-#     $ zid-128
+#     $ zid-128-as-shell
 #     0cb49f132271bf0436a8f0689f87ee9c
 #
-#
-# ## Notes
+# ## Notes ##
 #
 # Alternate solution for Linux, using the tr command:
 #
@@ -30,10 +33,9 @@
 #
 # This implementation uses the commands `hexdump` and `/dev/urandom`.
 #
+# ## Tracking ##
 #
-# ## Tracking
-#
-#   * Command: zid-128
+#   * Command: zid-128-as-shell
 #   * Version: 4.0.0
 #   * Created: 2015-01-25
 #   * Updated: 2018-07-06

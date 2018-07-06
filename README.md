@@ -1,4 +1,4 @@
-# zid-as-shell: Zen identifier implementation as a shell script
+# Zen identifier as a shell script
 
 Zid stands for "Zen identifier".
 
